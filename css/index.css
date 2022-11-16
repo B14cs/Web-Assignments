@@ -1,0 +1,134 @@
+body {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    box-sizing: border-box;
+    font-family: monospace;
+    font-size: 24px;
+    background-image: url(../img/wallhaven-l3zyg2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/*  */
+
+/* header {
+    background-image: url(../img/wallhaven-l3zyg2.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: calc(107vh - 80px);
+} */
+
+.navbar {
+    /* border: 1px solid #000; */
+    padding: 1% 2% 0% 2%;
+}
+
+.navbar .logo {
+    color: white;
+    font-size: 150%;
+    font-weight: bold;
+    height: 100%;
+}
+
+.navbar .ul-navbar {
+    float: right;
+    margin: 0;
+}
+
+.navbar .ul-navbar .li-navbar {
+    display: inline-block;
+}
+
+.navbar .ul-navbar .li-navbar .a-navbar {
+    color: white;
+    text-align: center;
+    font-size: 75%;
+    padding: 7px 13px;
+    text-decoration: none;
+    border-radius: 6px;
+    text-transform: uppercase;
+}
+
+.a-navbar.active,
+.a-navbar:hover {
+    background-color: #1b9bff;
+    transition: .5s;
+}
+
+.center-area {
+    text-transform: uppercase;
+    position: absolute;
+    width: 100%;
+    top: 25%;
+    color: #fff;
+}
+
+.center-area h1 {
+    text-align: center;
+    font-size: 500%;
+}
+
+.center-area h3 {
+    text-align: center;
+    font-size: 100%;
+}
+
+
+.center-area a {
+    color: white;
+    background-color: #41adff;
+    font-size: 85%;
+    padding: 10px 25px;
+    border-radius: 20px;
+    text-decoration: none;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.read_more a:hover {
+    background-color: #0e5891;
+}
+
+/*  */
+
+.text-area {
+    color: white;
+    margin-top: 15%;
+    margin-left: 10%;
+    margin-bottom: 10%;
+    float: left;
+    text-align: center;
+    max-width: 500px;
+    height: calc(100vh - 80px);
+}
+
+.text-area p {
+    text-transform: uppercase;
+    text-align: justify;
+    font-size: 75%;
+    margin-bottom: 10%;
+}
+
+.text-area a {
+    float: left;
+    color: white;
+    background-color: #41adff;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 75%;
+    padding: 7px 13px;
+    border-radius: 20px;
+    text-transform: uppercase;
+}
+
+.text-area .active1 a:hover {
+    background-color: #0e5891;
+}
+
+.video-right {
+    float: right;
+    margin-top: 14%;
+    margin-right: 8%;
+}

@@ -1,0 +1,100 @@
+body {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    box-sizing: border-box;
+    font-family: monospace;
+    font-size: 24px;
+    background-color: #252525;
+}
+
+/*  */
+
+.navbar {
+    padding: 1% 2% 0% 2%;
+}
+
+.navbar .logo {
+    color: white;
+    font-size: 150%;
+    font-weight: bold;
+}
+
+.navbar .ul-navbar {
+    float: right;
+    margin: 0;
+}
+
+.navbar .ul-navbar .li-navbar {
+    display: inline-block;
+}
+
+.navbar .ul-navbar .li-navbar .a-navbar {
+    color: white;
+    text-align: center;
+    font-size: 75%;
+    padding: 7px 13px;
+    text-decoration: none;
+    border-radius: 6px;
+    text-transform: uppercase;
+}
+
+.a-navbar.active,
+.a-navbar:hover {
+    background-color: #1b9bff;
+    transition: .5s;
+}
+
+/*  */
+
+.pictures-main {
+    padding: 0 1% 0 1%;
+    width: 98%;
+    margin: 0;
+}
+
+.pictures-text {
+    color: white;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 75%;
+}
+
+div.gallery {
+    margin-bottom: 5%;
+}
+
+div.gallery:hover {
+    border: 1px solid #777;
+}
+
+div.gallery img {
+    width: 100%;
+    height: auto;
+}
+
+div.desc {
+    font-size: 85%;
+    padding: 15px;
+    color: white;
+    text-align: center;
+}
+
+.responsive {
+    display: inline-flex;
+    width: 24.4%;
+}
+
+@media only screen and (max-width: 700px) {
+    .responsive {
+        width: 50%;
+        margin: 6px 0;
+    }
+}
+
+@media only screen and (max-width: 500px) {
+    .responsive {
+        width: 100%;
+    }
+}
