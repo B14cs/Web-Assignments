@@ -72,28 +72,16 @@ body {
     color: #fff;
 }
 
-.center-area a {
-    color: white;
-    background-color: #41adff;
-    font-size: 85%;
-    padding: 10px 25px;
-    border-radius: 20px;
-    text-decoration: none;
-    font-weight: bold;
-    text-transform: uppercase;
+.center-area h1 {
+    text-align: center;
+    font-size: 500%;
 }
 
-@media (min-width: 812px) {
-    .center-area h1 {
-        text-align: center;
-        font-size: 500%;
-    }
-
-    .center-area h3 {
-        text-align: center;
-        font-size: 140%;
-    }
+.center-area h3 {
+    text-align: center;
+    font-size: 140%;
 }
+
 
 @media (max-width: 812px) {
     .center-area h1 {
