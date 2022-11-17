@@ -7,8 +7,17 @@ body {
     font-family: monospace;
     font-size: 24px;
     background-image: url(../img/wallhaven-l3zyg2.jpg);
+    background-position: center center;
     background-repeat: no-repeat;
+    background-attachment: fixed;
     background-size: cover;
+    background-color: #252525;
+}
+
+@media only screen and (max-width: 767px) {
+    body {
+        background-image: url(../img/wallhaven-l3zyg2.jpg);
+    }
 }
 
 /*  */
