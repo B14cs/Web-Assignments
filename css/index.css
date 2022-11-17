@@ -108,6 +108,8 @@ body {
     .navbar .ul-navbar .li-navbar .a-navbar {
         display: block;
         width: 100%;
+        font-size: 56.25%;
+        padding: 5.25px 9.75px;
     }
 }
 
