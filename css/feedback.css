@@ -1,5 +1,8 @@
 body {
     margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
     box-sizing: border-box;
     font-family: monospace;
     font-size: 24px;
@@ -10,15 +13,12 @@ body {
 
 .navbar {
     padding: 1% 2% 0% 2%;
-    width: 96%;
-    position: relative;
 }
 
 .navbar .logo {
     color: white;
     font-size: 150%;
     font-weight: bold;
-    height: 100%;
 }
 
 .navbar .ul-navbar {
@@ -46,24 +46,47 @@ body {
     transition: .5s;
 }
 
-@media (max-width: 812px) {
-    .navbar .logo {
-        width: 50%;
-        font-size: 100%;
-        font-weight: bold;
-    }
+/*  */
 
-    .navbar .ul-navbar {
-        position: relative;
-        width: 50%;
-    }
-
-    .navbar .ul-navbar .li-navbar .a-navbar {
-        display: block;
-        width: 100%;
-        font-size: 56.25%;
-        padding: 5.25px 9.75px;
-    }
+.container {
+    border-radius: 5px;
+    padding: 20px;
 }
 
-/*  */
+h3{
+    color: white;
+    margin-left: 1%;
+}
+
+.container label {
+    color: white;
+}
+
+
+input[type=text],
+select,
+textarea {
+    width: 100%;
+    padding: 12px;
+    color: white;
+    background-color: #292929;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+}
+
+input[type=submit] {
+    background-color: #04AA6D;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+input[type=submit]:hover {
+    background-color: #45a049;
+}
