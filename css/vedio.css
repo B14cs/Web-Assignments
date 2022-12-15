@@ -4,6 +4,7 @@ body {
     font-family: monospace;
     font-size: 24px;
     background-color: #252525;
+    color: white;
 }
 
 /*  */
@@ -15,7 +16,6 @@ body {
 }
 
 .navbar .logo {
-    color: white;
     font-size: 150%;
     font-weight: bold;
     height: 100%;
@@ -31,7 +31,6 @@ body {
 }
 
 .navbar .ul-navbar .li-navbar .a-navbar {
-    color: white;
     text-align: center;
     font-size: 75%;
     padding: 7px 13px;
@@ -44,6 +43,14 @@ body {
 .a-navbar:hover {
     background-color: #1b9bff;
     transition: .5s;
+}
+
+a:visited {
+    color: white;
+}
+
+a:link{
+    color: white;
 }
 
 @media (max-width: 812px) {
@@ -70,7 +77,6 @@ body {
 /*  */
 
 .text-area {
-    color: white;
     margin-top: 15%;
     margin-left: 10%;
     margin-bottom: 10%;
@@ -88,7 +94,6 @@ body {
 
 .text-area a {
     float: left;
-    color: white;
     font-weight: bold;
     font-size: 75%;
     text-transform: uppercase;
@@ -106,4 +111,19 @@ body {
     .video-right video {
         width: 50%;
     }
+}
+
+/*  */
+
+.light-mode {
+    background-color: white;
+    color: #252525;
+}
+
+.light-mode a:visited {
+    color: #252525;
+}
+
+.light-mode a:link {
+    color: #252525;
 }

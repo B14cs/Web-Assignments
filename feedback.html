@@ -9,21 +9,47 @@
 </head>
 
 <body>
-    <header>
-        <nav class="navbar">
-            <label class="logo">Web-Assignments</label>
-            <ul class="ul-navbar">
-                <li class="li-navbar"><a href="index.html" class="a-navbar">Home</a></li>
-                <li class="li-navbar"><a href="vedio.html" class="a-navbar">Vedio</a></li>
-                <li class="li-navbar"><a href="Image Gallery.html" class="a-navbar">Gallery</a></li>
-                <li class="li-navbar"><a href="audio.html" class="a-navbar">Audio</a></li>
-                <li class="li-navbar"><a href="feedback.html" class="a-navbar active">Feedback</a></li>
-            </ul>
-        </nav>
-    </header>
+    <nav class="navbar">
+        <label class="logo">Assignment 3</label>
+        <ul class="ul-navbar">
+            <li class="li-navbar"><a href="index.html" class="a-navbar">Home</a></li>
+            <li class="li-navbar"><a href="vedio.html" class="a-navbar">Vedio</a></li>
+            <li class="li-navbar"><a href="Image Gallery.html" class="a-navbar">Gallery</a></li>
+            <li class="li-navbar"><a href="audio.html" class="a-navbar">Audio</a></li>
+            <li class="li-navbar"><a href="feedback.html" class="a-navbar active">Feedback</a></li>
+            <li class="li-navbar"><a href="#" onclick="light_mode(); return false;" class="a-navbar">Light mode</a></li>
+        </ul>
+    </nav>
 
-    <br>
+    <div class="container">
+        <h3>Contact form</h3>
+        <form action="/action_page.php">
+            <label for="fname">First Name</label>
+            <input type="text" id="fname" name="firstname" placeholder="Your name..">
 
+            <label for="lname">Email</label>
+            <input type="email" id="lname" name="lastname" placeholder="Your email..">
+
+            <label for="gender">Gender</label>
+            <select id="gender" name="gender">
+                <option disabled="disabled" selected="selected">select one option</option>
+                <option value="male">Male</option>
+                <option value="fmale">Fmale</option>
+            </select>
+
+            <label for="subject">Your comment</label>
+            <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+
+            <input type="submit" value="Submit">
+        </form>
+    </div>
+
+    <script>
+        function light_mode() {
+            var element = document.body;
+            element.classList.toggle("light-mode");
+        }
+    </script>
 </body>
 
 </html>

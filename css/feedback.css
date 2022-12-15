@@ -1,24 +1,24 @@
 body {
     margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
     box-sizing: border-box;
     font-family: monospace;
     font-size: 24px;
     background-color: #252525;
+    color: white;
 }
 
 /*  */
 
 .navbar {
     padding: 1% 2% 0% 2%;
-    width: 96%;
-    position: relative;
 }
 
 .navbar .logo {
-    color: white;
     font-size: 150%;
     font-weight: bold;
-    height: 100%;
 }
 
 .navbar .ul-navbar {
@@ -31,7 +31,6 @@ body {
 }
 
 .navbar .ul-navbar .li-navbar .a-navbar {
-    color: white;
     text-align: center;
     font-size: 75%;
     padding: 7px 13px;
@@ -46,24 +45,89 @@ body {
     transition: .5s;
 }
 
-@media (max-width: 812px) {
-    .navbar .logo {
-        width: 50%;
-        font-size: 100%;
-        font-weight: bold;
-    }
+a:visited {
+    color: white;
+}
 
-    .navbar .ul-navbar {
-        position: relative;
-        width: 50%;
-    }
-
-    .navbar .ul-navbar .li-navbar .a-navbar {
-        display: block;
-        width: 100%;
-        font-size: 56.25%;
-        padding: 5.25px 9.75px;
-    }
+a:link{
+    color: white;
 }
 
 /*  */
+
+.container {
+    border-radius: 5px;
+    padding: 1% 2% 0% 2%;
+}
+
+
+input[type=text],
+input[type=email],
+select,
+textarea {
+    width: 100%;
+    padding: 12px;
+    background-color: #252525;
+    border: 1px solid white;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+}
+
+select {
+    color: #6e6e6e;
+}
+
+
+input[type=submit] {
+    background-color: #04AA6D;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+input[type=submit]:hover {
+    background-color: #1b9bff;
+}
+
+/*  */
+
+.light-mode {
+    background-color: white;
+    color: #252525;
+}
+
+.light-mode a:visited {
+    color: #252525;
+}
+
+.light-mode a:link {
+    color: #252525;
+}
+
+.light-mode input[type=text] {
+    background-color: white;
+    border: 1px solid #252525;
+}
+
+.light-mode input[type=email] {
+    background-color: white;
+    border: 1px solid #252525;
+}
+
+.light-mode select {
+    background-color: white;
+    border: 1px solid #252525;
+}
+
+.light-mode textarea {
+    background-color: white;
+    border: 1px solid #252525;
+}
+
+.light-mode input[type=submit] {
+    color: white;
+}
