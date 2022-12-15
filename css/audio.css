@@ -45,7 +45,6 @@ body {
     transition: .5s;
 }
 
-<<<<<<< HEAD
 a:visited {
     color: white;
 }
@@ -65,20 +64,6 @@ a:link{
     max-width: 25%;
 }
 
-=======
-/*  */
-
-.text-area {
-    color: white;
-    margin-top: 15%;
-    margin-left: 10%;
-    margin-bottom: 10%;
-    float: left;
-    text-align: center;
-    max-width: 25%;
-}
-
->>>>>>> 89e4835752c11487fd59471bd0717b6015aeeec0
 .text-area p {
     text-transform: uppercase;
     text-align: justify;
@@ -88,10 +73,6 @@ a:link{
 
 .text-area a {
     float: left;
-<<<<<<< HEAD
-=======
-    color: white;
->>>>>>> 89e4835752c11487fd59471bd0717b6015aeeec0
     font-weight: bold;
     font-size: 75%;
     text-transform: uppercase;
@@ -106,7 +87,6 @@ a:link{
 .audio audio {
     width: 850px;
 }
-<<<<<<< HEAD
 
 /*  */
 
@@ -122,5 +102,3 @@ a:link{
 .light-mode a:link {
     color: #252525;
 }
-=======
->>>>>>> 89e4835752c11487fd59471bd0717b6015aeeec0

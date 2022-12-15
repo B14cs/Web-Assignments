@@ -45,7 +45,6 @@ body {
     transition: .5s;
 }
 
-<<<<<<< HEAD
 a:visited {
     color: white;
 }
@@ -59,42 +58,17 @@ a:link{
 .container {
     border-radius: 5px;
     padding: 1% 2% 0% 2%;
-=======
-/*  */
-
-.container {
-    border-radius: 5px;
-    padding: 20px;
-}
-
-h3{
-    color: white;
-    margin-left: 1%;
-}
-
-.container label {
-    color: white;
->>>>>>> 89e4835752c11487fd59471bd0717b6015aeeec0
 }
 
 
 input[type=text],
-<<<<<<< HEAD
 input[type=email],
-=======
->>>>>>> 89e4835752c11487fd59471bd0717b6015aeeec0
 select,
 textarea {
     width: 100%;
     padding: 12px;
-<<<<<<< HEAD
     background-color: #252525;
     border: 1px solid white;
-=======
-    color: white;
-    background-color: #292929;
-    border: 1px solid #ccc;
->>>>>>> 89e4835752c11487fd59471bd0717b6015aeeec0
     border-radius: 4px;
     box-sizing: border-box;
     margin-top: 6px;
@@ -102,7 +76,6 @@ textarea {
     resize: vertical;
 }
 
-<<<<<<< HEAD
 select {
     color: #6e6e6e;
 }
@@ -110,11 +83,6 @@ select {
 
 input[type=submit] {
     background-color: #04AA6D;
-=======
-input[type=submit] {
-    background-color: #04AA6D;
-    color: white;
->>>>>>> 89e4835752c11487fd59471bd0717b6015aeeec0
     padding: 12px 20px;
     border: none;
     border-radius: 4px;
@@ -122,7 +90,6 @@ input[type=submit] {
 }
 
 input[type=submit]:hover {
-<<<<<<< HEAD
     background-color: #1b9bff;
 }
 
@@ -164,7 +131,3 @@ input[type=submit]:hover {
 .light-mode input[type=submit] {
     color: white;
 }
-=======
-    background-color: #45a049;
-}
->>>>>>> 89e4835752c11487fd59471bd0717b6015aeeec0
