@@ -105,8 +105,13 @@
 
     <script>
         function light_mode() {
-            var element = document.body;
-            element.classList.toggle("light-mode");
+            document.body.classList.toggle("light-mode");
+            var btn = document.getElementById("btn");
+            if(btn.innerHTML == "Light mode"){
+                btn.innerHTML = "Dark mode";
+            }else{
+                btn.innerHTML = "Light mode";
+            }
         }
     </script>
 </body>
