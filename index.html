@@ -18,13 +18,50 @@
             <li class="li-navbar"><a href="Image Gallery.html" class="a-navbar">Gallery</a></li>
             <li class="li-navbar"><a href="audio.html" class="a-navbar">Audio</a></li>
             <li class="li-navbar"><a href="feedback.html" class="a-navbar">Feedback</a></li>
+            <li class="li-navbar"><a href="#" class="a-navbar"
+                    onclick="document.getElementById('login').style.display='block'">Login</a></li>
         </ul>
     </nav>
     <div class="center-area">
         <h1>Assignments</h1>
         <h3>This website is designed to deliver Internet Applications Programming Course exercises</h3>
     </div>
-    
+
+    <div id="login" class="modal">
+
+        <form class="modal-content animate" action="#" method="post">
+
+            <div class="container">
+                <label for="Username"><b>Username</b></label>
+                <input type="text" placeholder="Enter Username.." name="Username" required>
+
+                <label for="psw"><b>Password</b></label>
+                <input type="password" placeholder="Enter Password.." name="psw" required>
+
+                <button type="submit">Login</button>
+                <label>
+                    <input type="checkbox" checked="checked" name="remember"> Remember me
+                </label>
+                <span class="psw">Forgot <a href="#">password?</a></span>
+            </div>
+
+            <div class="container" style="background-color:#252525">
+                <button type="button" onclick="document.getElementById('login').style.display='none'"
+                    class="cancelbtn">Cancel</button>
+            </div>
+        </form>
+    </div>
+
+    <script>
+        var modal = document.getElementById('login');
+
+        window.onclick = function (event) {
+            if (event.target == modal) {
+                modal.style.display = "none";
+            }
+        }
+    </script>
+
 </body>
 
 </html>

@@ -68,6 +68,7 @@ textarea {
     width: 100%;
     padding: 12px;
     background-color: #252525;
+    color: white;
     border: 1px solid white;
     border-radius: 4px;
     box-sizing: border-box;
@@ -78,6 +79,10 @@ textarea {
 
 select {
     color: #6e6e6e;
+}
+
+option{
+    color: white;
 }
 
 
